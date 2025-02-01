@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mail-analyze"
+version = "1.0.0"
+authors = [
+    { name="CJ Henderson", email="chenderson1190@gmail.com"},
+]
+description = "A package to analyze a gmail inbox using Python's IMAPLib"
+readme = "README.md"
+requires-python = ">=3.13.1"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "GITHUB LINK"
+Issues = "GITHUB LINK"
